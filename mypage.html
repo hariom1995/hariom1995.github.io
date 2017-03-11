@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Hariom Mukati</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="my.css">
+</head>
+<body>
+
+<div id="main_container">
+<p id="cotation">You are welcome in a small part of my world</p>
+<div id="my_pic" align="center"> </div>	
+<div id="text">
+	<h1 id="my_name">Hariom <span class="kumar"><img src="nkumar.png" class="kumar_img"></span> Mukati</h1>
+</div>
+<div id="green_banner"><img src="Capture.png" class="capture"></div>
+
+</div>
+<div id="my_detail_image">
+	<a href="#about"><img src="about.png" class="about_class"><figcaption><p class="about_word">About Me</p></figcaption></a>
+	<a href="#about1"><figure><img src="work.png" class="work_class"><figcaption><p class="work_word">Work<p></figcaption></figure></a>
+	<a href="resumepdf.pdf"><img src="resume.png" class="resume_class"><figcaption><p class="resume_word">Resume</p></figcaption></a>
+	<a href="#about2"><img src="contact.png" class="contact_class"><figcaption><p class="contact_word">Contact</p></figcaption></a>
+	<a href="#"><img src="linkedin.png" class="linkedin_class"><figcaption><p class="linkedin_word">LinkedIn</p></figcaption></a>
+</div>
+<div id="about_container">
+	
+</div>
+<div id="about" name="about">
+<div id="about_container">
+	<h1 class="about_heading">About Me</h1>
+	<p>Hello, my name is Hariom Mukati!! I'm a designer and front<br> end developer from Bhopal,India. Currently working at India.</p>
+	<p>I specialize in designing and developing user interfaces. <br>My attention to detail is extreme and I love to continually learn what's new<br> all things design-related.</p>
+	<p>I have a strong passion for the creativity and discipline that <br>goes into front-end development. Keeping in mind scalability and clean<br> code that is maintainable and readable.</p>
+	<div><p>I enjoy turning complex problems into simple, beautiful and intuitive<br> interface designs. When I'm not coding, you'll find me in the<br> gym or in the my bedroom.</p></div>
+	<div id="about_quot_box"><p class="about_container_quot">I cannot control how people see or think about me, but at least I know I can control how I think or look at myself. Because, one of our most honest judges is our own Good Conscience.</p>
+	</div>
+	<div id="my_pic_prsnl">
+	<img src="font/2.jpg" class="mypic1">
+	<img src="font/1.jpg" class="mypic2">
+	<img src="font/3.jpg" class="mypic3">
+	</div>
+</div>
+
+<div id="about1" name="about">
+<div id="about_container">
+	<h1 class="about_heading">About Me</h1>
+	<p>Hello, my name is Hariom Mukati!! I'm a designer and front<br> end developer from Bhopal,India. Currently working at India.</p>
+	<p>I specialize in designing and developing user interfaces. <br>My attention to detail is extreme and I love to continually learn what's new<br> all things design-related.</p>
+	<p>I have a strong passion for the creativity and discipline that <br>goes into front-end development. Keeping in mind scalability and clean<br> code that is maintainable and readable.</p>
+	<div><p>I enjoy turning complex problems into simple, beautiful and intuitive<br> interface designs. When I'm not coding, you'll find me in the<br> gym or in the my bedroom.</p></div>
+	<div id="about_quot_box"><p class="about_container_quot">I cannot control how people see or think about me, but at least I know I can control how I think or look at myself. Because, one of our most honest judges is our own Good Conscience.</p>
+	</div>
+	<div id="my_pic_prsnl">
+	<img src="font/2.jpg" class="mypic1">
+	<img src="font/1.jpg" class="mypic2">
+	<img src="font/3.jpg" class="mypic3">
+	</div>
+</div>
+<div id="about2" name="about">
+<h1>Contact Me</h1>
+	<div class="contact_form">
+		<form method="POST"> 
+		<p>Full Name</p>
+		<input type="text" name="name" placeholder="Enter Your Name" class="contact_form_style">
+		<p>E-mail</p>
+		<input type="email" name="mail" placeholder="Enter Your E-Mail" class="contact_form_style">
+		<p>Subject</p>
+		<input type="text" name="subject" placeholder="Subject" class="contact_form_style">
+		<p>Message</p>
+		<textarea class="contact_form_textarea">Start here...</textarea><br>
+		<input type="submit" value="Submitt" style="height: 20px,width: 60px">
+		</form>
+	</div>
+	<div id="contact_prsonal_detail">
+		<div class="own_mail"><h3 class="contact_detail_heading">E-mail</h3><p class="contact_detail">hariommukati1995@gmail.com</p></div>
+		<div class="own_mob"><h3 class="contact_detail_heading">Mobile No.</h3><p class="contact_detail">8435143175</p></div>
+		<div class="own_web"><h3 class="contact_detail_heading">On The Web</h3><p class="contact_detail">Facebook|Twitter|Instagram</p></div>
+
+	</div>
+</div>
+
+<script type="text/javascript">
+
+$(document).ready(function(){
+
+  $("a").on('click', function(event) {
+
+    // Make sure this.hash has a value before overriding default behavior
+    if (this.hash !== "") {
+      // Prevent default anchor click behavior
+      event.preventDefault();
+
+      // Store hash
+      var hash = this.hash;
+
+      // Using jQuery's animate() method to add smooth page scroll
+      // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+      $('html, body').animate({
+        scrollTop: $(hash).offset().top
+      }, 800, function(){
+   
+        // Add hash (#) to URL when done scrolling (default click behavior)
+        window.location.hash = hash;
+      });
+    } // End if
+  });
+});
+</script>
+<!-- End of SMOOTH SCROLL -->
+
+</script>
+
+</body>
+</html>

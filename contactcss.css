@@ -1,0 +1,70 @@
+#ownprofilepic{
+		height: auto;
+	}
+	#thank_quatation{
+		height: auto;
+		width: auto;
+		margin-left: 80px;
+	}
+	#contact_us_heading{
+		font-size: 30px;
+		margin-top: 10px;
+		font-family: arial;
+	}
+	#thanx_contant{
+		margin-top: -20px;
+		font-family: arial;
+		color: rgba(52, 53, 56,0.8);
+	}
+	#contact_form{
+		margin-left: 80px;
+		width: 650px;
+		border-right-style: solid;
+		border-right-color: rgba(0, 0, 0,0.4)
+	}
+	.full_name,.contact_email,.contact_sub{
+		height: 35px;
+		width: 350px;
+		border-radius: 1px;
+		margin-top: -13px;
+		margin-bottom: 15px; 
+	}
+	.contact_form_title{
+		font-family: arial; 
+	}
+	textarea.contact_msg{
+		height: 150px;
+		width: 350px;
+		resize: none;
+		margin-top: -13px;
+	}
+	#contact_self_info{
+		    position: absolute;
+    top: 552px;
+    right: 300px;
+    width: auto;
+	}
+	#contact_self_email{
+		height: 79px;
+    border-bottom-style: solid;
+    border-bottom-color: rgba(0,0,0,0.3);
+    width: 257px;
+	}
+	#contact_self_phone{
+		height: 79px;
+    border-bottom-style: solid;
+    border-bottom-color: rgba(0,0,0,0.3);
+    width: 257px;
+	}
+	#contact_on_web{
+		height: 79px;
+    border-bottom-style: solid;
+    border-bottom-color: rgba(0,0,0,0.3);
+    width: 257px;
+	}
+	.contact_submit{
+		height: 35px;
+		width: 75px;
+		box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+		cursor: pointer;
+	}

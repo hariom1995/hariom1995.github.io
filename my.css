@@ -1,0 +1,247 @@
+html,body{
+	background-image: url(background.jpg);
+	background-attachment: fixed;
+}
+#cotation{
+	color: black;
+    opacity: 0.5;
+    font-size: 17px;
+    position: absolute;
+    top: 388px;
+    left: 470px;
+    font-family: arial;
+}
+#main_container{
+	height: 300px;
+    width: auto;
+   /* background-image: url(normal.jpg);*/
+   background-color: white;
+
+    margin-top: 229px;
+
+}
+#my_pic{ height: 300px;
+	height: 285px;
+    width: 285px;
+    background-image: url(mypic.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    border-radius: 138px;
+    background-position: 63% 18%;
+    position: absolute;
+    align-items: center;
+    top: 32px;
+    left:517px;
+    opacity: 1.0;
+}
+#my_name{
+	font-family: Castellar;
+    font-size: 66px;
+    position: absolute;
+    top: 275px;
+    left: 271px;
+
+}
+.kumar{
+	-ms-transform: rotate(7deg); /* IE 9 */
+    -webkit-transform: rotate(7deg); /* Chrome, Safari, Opera */
+    transform: rotate(7deg);
+}
+.kumar_img{
+	height: 29px;
+    -ms-transform: rotate(-20deg);
+    -webkit-transform: rotate(-20deg);
+    transform: rotate(-15deg);
+
+}
+.capture{
+	margin-top: 165px;
+    margin-left: 147px;
+}
+#my_detail_image{
+	margin-top: 20px;
+	margin-left: -1px;
+	float: left;
+	width: 100%;
+}
+.about_class{
+	opacity: 0.5;
+	height: 60px;
+	width: auto;
+	margin-left: 160px;
+	float: left;
+}
+.work_class{
+opacity: 0.5;
+	height: 60px;
+	width: auto;
+	margin-left: 160px;
+	float: left;
+	margin-top: -15px;
+}
+.resume_class{
+opacity: 0.5;
+	height: 60px;
+	width: auto;
+	margin-left: 160px;
+	float: left;
+	margin-top: -14px;
+}
+.contact_class{
+opacity: 0.5;
+	height: 60px;
+	width: auto;
+	margin-left: 160px;
+	float: left;
+	margin-top: -20px;
+}
+.linkedin_class{
+	opacity: 0.5;
+	height: 60px;
+	width: auto;
+	margin-left: 160px;
+	float: left;
+	margin-top: -22px;
+}
+.about_word{
+	position: absolute;
+    top: 599px;
+    color: white;
+    left: 157px;
+    opacity: 0.8;
+}
+.work_word{
+	position: absolute;
+    top: 601px;
+    color: white;
+    left: 394px;
+    opacity: 0.8;
+}
+.resume_word{
+	position: absolute;
+    top: 599px;
+    color: white;
+    left: 608px;
+    opacity: 0.8;
+}
+.contact_word{
+	position: absolute;
+    top: 599px;
+    color: white;
+    left: 831px;
+    opacity: 0.8;
+}
+.linkedin_word{
+	position: absolute;
+    top: 599px;
+    color: white;
+    left: 1047px;
+    opacity: 0.8;
+}
+/* About me*/
+#about_container{
+	margin-top: 141px;
+    color: black;
+    margin-left: 85px;
+    background-color: none;
+
+	}
+#about_quot_box{
+	height: 142px;
+    width: 363px;
+    margin-left: 828px;
+    background-color: rgba(0,0,0,0.7);
+    margin-top: -541px;
+    border-radius: 5px;
+}
+@font-face{
+	font-family: Parag;
+	src:url(font/Parag.ttf);
+}
+.about_heading{
+	font-family: Parag;
+    font-size: 67px;
+    margin-left: 0px;
+}
+.about_container_quot{
+font-size: 18px;
+font-family: arial;
+text-align: center;
+
+}
+@font-face{
+	font-family: HighlandGothicLightFLF;
+	src:url(font/HighlandGothicLightFLF.ttf);
+}
+p{
+	font-family: HighlandGothicLightFLF;
+    font-size: 25px;
+    color: black;
+}
+.contact_form_style{
+	height: 50px;
+    width: 300px;
+    border-radius: 5px;
+    margin-top: -282px;
+    margin-left: 135px;
+}
+.mypic1{
+	    border-radius: 140px;
+    height: 216px;
+    width: 241px;
+    margin-left: 975px;
+    margin-top: -133px;
+}
+.mypic2{
+	height: 100px;
+    width: 100px;
+    margin-left: 1117px;
+    border-radius: 65px;
+    margin-top: -17px;
+}
+.mypic3{
+	height: 141px;
+    width: 149px;
+    margin-left: 976px;
+    border-radius: 65px;
+    margin-top: -91px;s
+}
+#my_pic_prsnl{
+	margin-top: 140px;
+    margin-left: -10px;
+}
+#about{
+	background-color: rgba(255,255,255,0.5);
+	margin-bottom: 10px;
+
+}
+.contact_form_textarea{
+	height: 100px;
+    width: 298px;
+    margin-left: 134px;
+}
+#contact_us{
+	margin-left: 82px;
+    width: 453px;
+    border-right-style: solid;
+    border-right-color: #291134;
+
+}
+.contact_detail{
+	font-family: arial;
+}
+.contact_detail_heading{
+	font-family: arial;
+}
+#contact_prsonal_detail{
+	position: absolute;
+    top: 2069px;
+    left: 746px
+}
+.own_mail,.own_mob,.own_web{
+	border-bottom-style: solid; 
+	height: 106px;
+}
+#about2{
+	margin-top:15px;
+}
